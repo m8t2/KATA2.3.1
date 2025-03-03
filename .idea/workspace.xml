@@ -10,12 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f75131c-d0d6-469f-b23a-0604f5fba146" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/DAO/CarDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/DAO/CarDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/DAO/CarDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/DAO/CarDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/web/DAO/CarDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/web/DAO/CarDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/Service/CarService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/Service/CarServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/cars.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Spring_MVC/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/classes/web/model/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/cars.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Spring_MVC/WEB-INF/pages/cars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/model/Car.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740999319852</updated>
       <workItem from="1740999320906" duration="5480000" />
-      <workItem from="1741009115544" duration="4263000" />
+      <workItem from="1741009115544" duration="4562000" />
     </task>
     <servers />
   </component>
