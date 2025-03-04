@@ -1,0 +1,28 @@
+# Скомпилированные классы и байт-код
+*.class
+
+# Логи
+*.log
+
+# Файлы сборки и зависимости
+/target/
+/build/
+
+# Зависимости Maven
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# Зависимости Gradle
+/.gradle/
+/gradlew
+/gradlew.bat
+
+# Локальные настройки IDE
+/.idea/
+/*.iml
+/.vscode/
+/*.code-workspace
+
+# Файлы кэша и временные файлы
+*.swpgg
