@@ -9,11 +9,11 @@ import org.springframework.ui.Model;
 import java.util.List;
 
 @Controller
-public class HelloController {
+public class CarsController {
 
 	private final CarDAOImpl carDAO;
 
-	public HelloController(CarDAOImpl carDAO) {
+	public CarsController(CarDAOImpl carDAO) {
 		this.carDAO = carDAO;
 	}
 
