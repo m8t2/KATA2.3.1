@@ -1,0 +1,11 @@
+CREATE TABLE users (
+                       id INT AUTO_INCREMENT PRIMARY KEY,
+                       name VARCHAR(50) NOT NULL,
+                       secondName VARCHAR(50) NOT NULL,
+                       age INT NOT NULL
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+INSERT INTO users.users (name, secondName, age) VALUES ('Иван', 'Иванов', 25),
+                                                       ('Василий', 'Ветров', 22),
+                                                       ('Борис','Антонов', 43),
+                                                       ('Валерия','Певица', 43);

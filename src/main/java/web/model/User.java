@@ -1,7 +1,5 @@
 package web.model;
 
-
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,6 +24,10 @@ public class User {
     @Column
     private int age;
 
+    public User() {
+
+    }
+
     public User(String name, String secondName, int age) {
         this.name = name;
         this.secondName = secondName;
@@ -38,12 +40,6 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-
-
-    public User() {
-
     }
 
     public String getName() {
