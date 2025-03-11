@@ -6,6 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "users")
@@ -13,15 +17,21 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column
+    @NotEmpty(message = "Имя не может быть пустым")
+    @Size(min = 2, max = 50, message = "Имя должно быть от 2 до 50 символов")
     private String name;
 
     @Column
+    @NotEmpty(message = "Фамилия не может быть пустой")
+    @Size(min = 2, max = 50, message = "Фамилия должна быть от 2 до 50 символов")
     private String secondName;
 
     @Column
+    @Min(value = 1, message = "Возраст должен быть больше 0")
+    @Max(value = 120, message = "Возраст не может быть больше 120")
     private int age;
 
     public User() {
@@ -34,11 +44,11 @@ public class User {
         this.age = age;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
