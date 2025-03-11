@@ -1,4 +1,6 @@
-CREATE TABLE users (
+CREATE SCHEMA IF NOT EXISTS users;
+
+CREATE TABLE IF NOT EXISTS users (
                        id INT AUTO_INCREMENT PRIMARY KEY,
                        name VARCHAR(50) NOT NULL,
                        secondName VARCHAR(50) NOT NULL,
